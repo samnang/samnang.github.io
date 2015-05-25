@@ -1,0 +1,14 @@
+---
+title: Archives
+layout: page
+---
+
+- blog.articles.group_by {|y| y.date.year }.each do |year, articles|
+  %h2= year
+  - articles.each do |article|
+    %article.post
+      %header.post-header
+        %section.post-meta
+          %time.post-date{datetime: article.date.strftime('%Y-%m-%d')}
+            = article.date.strftime(blog_settings.date_format)
+        %h2.post-title= link_to article.title, article

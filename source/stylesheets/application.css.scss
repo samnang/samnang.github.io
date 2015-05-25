@@ -1,0 +1,11 @@
+@import 'vendor/casper';
+@import 'syntax';
+@import 'main';
+
+// Overwrite some styles from casper.css
+
+.blog-logo img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
