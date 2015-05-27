@@ -75,11 +75,8 @@ Recently I found a very simple way to solve my problem which depend on <code>jso
 <pre class="highlight ruby"><code><span class="nb">require</span> <span class="s1">'json'</span>
 <span class="nb">require</span> <span class="s1">'ostruct'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span>
-  <span class="s2">"{</span><span class="se">\"</span><span class="s2">foo</span><span class="se">\"</span><span class="s2">:{</span><span class="se">\"</span><span class="s2">bar</span><span class="se">\"</span><span class="s2">:[1,2,3]}}"</span><span class="p">,</span>
-  <span class="ss">object_class: </span><span class="no">OpenStruct</span>
-<span class="p">)</span>
-<span class="n">result</span><span class="p">.</span><span class="nf">foo</span><span class="p">.</span><span class="nf">bar</span>  <span class="c1"># =&gt; [1, 2, 3]</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="s1">'{"foo":{"bar":[1,2]}}'</span><span class="p">,</span> <span class="ss">object_class: </span><span class="no">OpenStruct</span><span class="p">)</span>
+<span class="n">result</span><span class="p">.</span><span class="nf">foo</span><span class="p">.</span><span class="nf">bar</span>  <span class="c1"># =&gt; [1, 2]</span>
 </code></pre>
 
 <p>You also can learn more about other options that available to pass when you call <a href="http://ruby-doc.org/stdlib-2.2.2/libdoc/json/rdoc/JSON.html#method-i-parse"><code>JSON.parse</code></a></p>
