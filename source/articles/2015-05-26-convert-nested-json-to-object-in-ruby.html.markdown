@@ -14,11 +14,8 @@ Recently I found a very simple way to solve my problem which depend on `json` wh
 require 'json'
 require 'ostruct'
 
-result = JSON.parse(
-  "{\"foo\":{\"bar\":[1,2,3]}}",
-  object_class: OpenStruct
-)
-result.foo.bar  # => [1, 2, 3]
+result = JSON.parse('{"foo":{"bar":[1,2]}}', object_class: OpenStruct)
+result.foo.bar  # => [1, 2]
 ```
 
 You also can learn more about other options that available to pass when you call [`JSON.parse`](http://ruby-doc.org/stdlib-2.2.2/libdoc/json/rdoc/JSON.html#method-i-parse)
