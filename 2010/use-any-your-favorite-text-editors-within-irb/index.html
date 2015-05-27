@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Samnang Chhun: Use any Your Favorite Text Editors within irb</title>
+<meta content='Almost Ruby and Rails developers use Interactive Ruby Shell(irb) everyday to test their code snippets. We all understand how useful and importan...' name='description'>
+<meta content='IRB, Ruby' name='keywords'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='True' name='HandheldFriendly'>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+<link href="/images/favicon.ico" rel="icon" type="image/ico" />
+<link href="/stylesheets/application.css" rel="stylesheet" type="text/css" />
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
+<meta name='twitter:card' value='summary'>
+<meta content='Samnang Chhun: Use any Your Favorite Text Editors within irb' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='http://samnang.me/2010/use-any-your-favorite-text-editors-within-irb/' property='og:url'>
+<meta content='https://www.gravatar.com/avatar/863e24c91fcf1cd3c879ea62a401365e?size=128' property='og:image'>
+<meta content='Almost Ruby and Rails developers use Interactive Ruby Shell(irb) everyday to test their code snippets. We all understand how useful and importan...' property='og:description'>
+
+</head>
+<body class='post-template nav-closed'>
+<div class='nav'>
+<h3 class='nav-title'>Menu</h3>
+<a class='nav-close' href='#'>
+<span class='hidden'>Close</span>
+</a>
+<ul>
+<li class='nav-home' role='presentation'>
+<a href='/'>Home</a>
+</li>
+<li class='nav-archives' role='presentation'>
+<a href='/archives'>Archives</a>
+</li>
+<li class='nav-pair-with-me' role='presentation'>
+<a href='/pair-with-me'>Pair with Me</a>
+</li>
+<li class='nav-about' role='presentation'>
+<a href='/about'>About</a>
+</li>
+</ul>
+<a class='subscribe-button icon-feed' href='/feed.xml'>Subscribe</a>
+</div>
+<span class='nav-cover'></span>
+
+<div class='site-wrapper'>
+<header class='main-header no-cover post-head'>
+<nav class='main-nav clearfix'>
+<a class='blog-logo' href='/'>
+<img alt="Blog Logo" src="/images/profile-image.jpg" />
+</a>
+<a class='menu-button icon-menu' href='#'>
+<span class='word'>Menu</span>
+</a>
+</nav>
+</header>
+<main class='content' role='main'>
+<article class='post'>
+<header class='post-header'>
+<h1 class='post-title'>Use any Your Favorite Text Editors within irb</h1>
+<section class='post-meta'>
+<time class='post-date' datetime='2010-10-05'>
+05 October 2010
+</time>
+on <a href='/tag/irb/'>IRB</a>, <a href='/tag/ruby/'>Ruby</a>
+</section>
+</header>
+<section class='post-content'><p>Almost Ruby and Rails developers use Interactive Ruby Shell(irb) everyday to test 
+their code snippets. We all understand how useful and important to us on this tool. 
+But sometime I find a little bit difficult when I want to test a chunk of codes in irb 
+because I have to write them line by line. Ruby has block, method, class, module, etc. 
+So we can’t write them easily in irb. Tell you the truth, I made a lot of mistakes on 
+closing blocks.</p>
+
+<p>Have you ever thought you can use your favorite text editors within irb to solve 
+the problems? Thank to <a href="http://zegoggl.es/2009/04/integrating-vim-and-irb.html">Jan Berkel</a> 
+and with help from <a href="http://blog.headius.com/">Charles Nutter</a> who make our dream 
+comes truth, you can use any your favorite text editors(I like Vim) within irb. 
+And it is so easy to get it installed.</p>
+
+<h2>Installation</h2>
+
+<ol>
+<li>Install the interactive editor gem by running this at the command line:<br>
+<code>gem install interactive_editor</code></li>
+<li>Create an <code>~/.irbrc</code> file if you don’t already have one, then paste the following into it:<br></li>
+</ol>
+<pre class="highlight ruby"><code><span class="nb">require</span> <span class="s1">'rubygems'</span>
+<span class="nb">require</span> <span class="s1">'interactive_editor'</span>
+</code></pre>
+
+<p>You can see a demo on <a href="http://vimcasts.org/episodes/running-vim-within-irb">Vimcasts</a></p>
+</section>
+<footer class='post-footer'>
+<figure class='author-image'>
+<a class='img' href='/about' style='background-image: url(https://www.gravatar.com/avatar/863e24c91fcf1cd3c879ea62a401365e?size=68)'>
+<span class='hidden'>Samnang Chhun's Picture</span>
+</a>
+</figure>
+<section class='author'>
+<h4>
+<a href='/about'>Samnang Chhun</a>
+</h4>
+<p></p>
+Software Craftsman
+<div class='author-meta'>
+<span class='author-location icon-location'>Phnom Penh, Cambodia</span>
+</div>
+</section>
+<section class='share'>
+<h4>Share this post</h4>
+<a class='icon-twitter' href='https://twitter.com/share?text=Use any Your Favorite Text Editors within irb&amp;amp;url=http://samnang.me/2010/use-any-your-favorite-text-editors-within-irb/' onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<span class='hidden'>Twitter</span>
+</a>
+<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://samnang.me/2010/use-any-your-favorite-text-editors-within-irb/' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<span class='hidden'>Facebook</span>
+</a>
+<a class='icon-google-plus' href='https://plus.google.com/share?url=http://samnang.me/2010/use-any-your-favorite-text-editors-within-irb/' onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<span class='hidden'>Google+</span>
+</a>
+</section>
+</footer>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'samnang';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</article>
+</main>
+
+<footer class='site-footer clearfix'>
+<section class='copyright'>
+<a href='/'>Samnang Chhun</a>
+&copy;
+2015
+</section>
+<section class='poweredby'>
+Casper theme powered by
+<a href='https://ghost.org'>Ghost</a>
+</section>
+</footer>
+</div>
+<script src="/javascripts/application.js" type="text/javascript"></script>
+</body>
+</html>

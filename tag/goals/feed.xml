@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: Goals</title>
+  <subtitle>Posts tagged with Goals</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/goals/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>2011 will be my Ruby and OSS year</title>
+    <link rel="alternate" href="http://samnang.me/2011/2011-will-be-my-ruby-and-oss-year/"/>
+    <id>http://samnang.me/2011/2011-will-be-my-ruby-and-oss-year/</id>
+    <published>2011-01-02T07:00:00+07:00</published>
+    <updated>2015-05-20T22:40:01+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Last a few months, I have relearned my Ruby skill, and I have enjoyed the language. So this year I decided 2011 will be my Ruby year, and I will do open source projects and contribute to some existing open source projects in that technology.
+
+There are</summary>
+  </entry>
+</feed>

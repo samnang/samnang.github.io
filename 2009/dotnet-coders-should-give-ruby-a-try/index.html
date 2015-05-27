@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Samnang Chhun: .NET Coders should give Ruby a try</title>
+<meta content='Last weekend, I gave Ruby a try. Ruby is a dynamic, open source programming language with focusing on simplicity and productivity. It has elegan...' name='description'>
+<meta content='.Net, Ruby' name='keywords'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='True' name='HandheldFriendly'>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+<link href="/images/favicon.ico" rel="icon" type="image/ico" />
+<link href="/stylesheets/application.css" rel="stylesheet" type="text/css" />
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
+<meta name='twitter:card' value='summary'>
+<meta content='Samnang Chhun: .NET Coders should give Ruby a try' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='http://samnang.me/2009/dotnet-coders-should-give-ruby-a-try/' property='og:url'>
+<meta content='https://www.gravatar.com/avatar/863e24c91fcf1cd3c879ea62a401365e?size=128' property='og:image'>
+<meta content='Last weekend, I gave Ruby a try. Ruby is a dynamic, open source programming language with focusing on simplicity and productivity. It has elegan...' property='og:description'>
+
+</head>
+<body class='post-template nav-closed'>
+<div class='nav'>
+<h3 class='nav-title'>Menu</h3>
+<a class='nav-close' href='#'>
+<span class='hidden'>Close</span>
+</a>
+<ul>
+<li class='nav-home' role='presentation'>
+<a href='/'>Home</a>
+</li>
+<li class='nav-archives' role='presentation'>
+<a href='/archives'>Archives</a>
+</li>
+<li class='nav-pair-with-me' role='presentation'>
+<a href='/pair-with-me'>Pair with Me</a>
+</li>
+<li class='nav-about' role='presentation'>
+<a href='/about'>About</a>
+</li>
+</ul>
+<a class='subscribe-button icon-feed' href='/feed.xml'>Subscribe</a>
+</div>
+<span class='nav-cover'></span>
+
+<div class='site-wrapper'>
+<header class='main-header no-cover post-head'>
+<nav class='main-nav clearfix'>
+<a class='blog-logo' href='/'>
+<img alt="Blog Logo" src="/images/profile-image.jpg" />
+</a>
+<a class='menu-button icon-menu' href='#'>
+<span class='word'>Menu</span>
+</a>
+</nav>
+</header>
+<main class='content' role='main'>
+<article class='post'>
+<header class='post-header'>
+<h1 class='post-title'>.NET Coders should give Ruby a try</h1>
+<section class='post-meta'>
+<time class='post-date' datetime='2009-01-20'>
+20 January 2009
+</time>
+on <a href='/tag/net/'>.Net</a>, <a href='/tag/ruby/'>Ruby</a>
+</section>
+</header>
+<section class='post-content'><p>Last weekend, I gave <a title="Ruby programming language" href="http://www.ruby-lang.org/">Ruby</a> a try. 
+Ruby is a dynamic, open source programming language with focusing on simplicity and 
+productivity. It has elegant syntax that is natural to read and easy to write. 
+I’m a .NET coder, everyday I use C# for developing projects in my company. There are few
+reasons that bring me to try Ruby because I see a lot programmers have mentioned 
+Ruby is a very powerful and flexible programming language, is it true? And the main 
+reason, I would like to try something new because almost my programming skills are 
+just in static typed language and a bit dynamic typed language with Javascript.</p>
+
+<p>After I played with Ruby about a few hours, I start loving it. Ruby is a fun toy. 
+Like the differences between spoken languages, Ruby differs from most other programming 
+languages not only by syntax, but by culture, grammar, and customs. And some programmers 
+consider Ruby is English for computers. Ruby brings a new way of thinking about 
+programming and software development. I would like to show you very basic examples, 
+let’s go to see snippets of code comparation between C# and Ruby.</p>
+<pre class="highlight csharp"><code><span class="c1">// === Examples in C# ===
+</span>
+<span class="c1">//Swap value between two variables
+</span><span class="kt">int</span> <span class="n">a</span> <span class="p">=</span> <span class="m">5</span><span class="p">,</span> <span class="n">b</span> <span class="p">=</span> <span class="m">10</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">temp</span> <span class="p">=</span> <span class="n">a</span><span class="p">;</span>
+<span class="n">a</span> <span class="p">=</span> <span class="n">b</span><span class="p">;</span>
+<span class="n">b</span> <span class="p">=</span> <span class="n">temp</span><span class="p">;</span>
+
+<span class="c1">//Output message 3 times
+</span><span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;=</span> <span class="m">3</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+    <span class="n">Console</span><span class="p">.</span><span class="nf">WriteLine</span><span class="p">(</span><span class="s">"Hello"</span><span class="p">);</span>
+
+<span class="c1">//Output message if condition is true string
+</span><span class="n">str</span> <span class="p">=</span> <span class="kt">string</span><span class="p">.</span><span class="n">Empty</span><span class="p">;</span>
+<span class="k">if</span><span class="p">(</span><span class="n">str</span> <span class="p">==</span> <span class="kt">string</span><span class="p">.</span><span class="n">Empty</span><span class="p">)</span>
+    <span class="n">Console</span><span class="p">.</span><span class="nf">WriteLine</span><span class="p">(</span><span class="s">"str is empty"</span><span class="p">);</span>
+</code></pre>
+<pre class="highlight ruby"><code><span class="c1"># === Examples in Ruby ===</span>
+
+<span class="c1">#Swap value between two variables</span>
+<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span>
+<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span>
+
+<span class="c1">#Output message 3 times</span>
+<span class="mi">3</span><span class="p">.</span><span class="nf">times</span> <span class="p">{</span> <span class="nb">puts</span> <span class="s2">"Hello"</span> <span class="p">}</span>
+
+<span class="c1">#Output message if condition is true</span>
+<span class="n">str</span> <span class="o">=</span> <span class="s1">''</span>
+<span class="nb">puts</span> <span class="s2">"str is empty"</span> <span class="k">if</span> <span class="n">str</span><span class="p">.</span><span class="nf">empty?</span>
+</code></pre>
+
+<p>Code comparisons above are not to show which language is bad and another is good, 
+but I just want to show how I feel about new language. Ruby code is short and readable 
+like in English. There are lots of more powerful features in Ruby that I haven’t mentioned here.</p>
+
+<p>If you haven’t touched something new recently, why don’t you give Ruby a try?</p>
+</section>
+<footer class='post-footer'>
+<figure class='author-image'>
+<a class='img' href='/about' style='background-image: url(https://www.gravatar.com/avatar/863e24c91fcf1cd3c879ea62a401365e?size=68)'>
+<span class='hidden'>Samnang Chhun's Picture</span>
+</a>
+</figure>
+<section class='author'>
+<h4>
+<a href='/about'>Samnang Chhun</a>
+</h4>
+<p></p>
+Software Craftsman
+<div class='author-meta'>
+<span class='author-location icon-location'>Phnom Penh, Cambodia</span>
+</div>
+</section>
+<section class='share'>
+<h4>Share this post</h4>
+<a class='icon-twitter' href='https://twitter.com/share?text=.NET Coders should give Ruby a try&amp;amp;url=http://samnang.me/2009/dotnet-coders-should-give-ruby-a-try/' onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<span class='hidden'>Twitter</span>
+</a>
+<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://samnang.me/2009/dotnet-coders-should-give-ruby-a-try/' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<span class='hidden'>Facebook</span>
+</a>
+<a class='icon-google-plus' href='https://plus.google.com/share?url=http://samnang.me/2009/dotnet-coders-should-give-ruby-a-try/' onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<span class='hidden'>Google+</span>
+</a>
+</section>
+</footer>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'samnang';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</article>
+</main>
+
+<footer class='site-footer clearfix'>
+<section class='copyright'>
+<a href='/'>Samnang Chhun</a>
+&copy;
+2015
+</section>
+<section class='poweredby'>
+Casper theme powered by
+<a href='https://ghost.org'>Ghost</a>
+</section>
+</footer>
+</div>
+<script src="/javascripts/application.js" type="text/javascript"></script>
+</body>
+</html>

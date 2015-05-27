@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: Yoolk</title>
+  <subtitle>Posts tagged with Yoolk</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/yoolk/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>My last day at Yoolk</title>
+    <link rel="alternate" href="http://samnang.me/2011/my-last-day-at-yoolk/"/>
+    <id>http://samnang.me/2011/my-last-day-at-yoolk/</id>
+    <published>2011-09-25T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:25+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">I almost couldn’t believe it, but on Friday, September 23rd was my last day at Yoolk. I joined to work at Yoolk since July, 2007. Since then I really enjoyed in learning and was a part of the team. I would say it’s a place that not only changes my career</summary>
+  </entry>
+</feed>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: .Net</title>
+  <subtitle>Posts tagged with .Net</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/net/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>.NET Coders should give Ruby a try</title>
+    <link rel="alternate" href="http://samnang.me/2009/dotnet-coders-should-give-ruby-a-try/"/>
+    <id>http://samnang.me/2009/dotnet-coders-should-give-ruby-a-try/</id>
+    <published>2009-01-20T07:00:00+07:00</published>
+    <updated>2015-05-20T22:38:32+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Last weekend, I gave Ruby a try. 
+Ruby is a dynamic, open source programming language with focusing on simplicity and 
+productivity. It has elegant syntax that is natural to read and easy to write. 
+I’m a .NET coder, everyday I use C# for developing projects</summary>
+  </entry>
+</feed>

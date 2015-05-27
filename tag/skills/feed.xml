@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: Skills</title>
+  <subtitle>Posts tagged with Skills</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/skills/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>12 Things every Programmer should know</title>
+    <link rel="alternate" href="http://samnang.me/2010/12-things-every-programmer-should-know/"/>
+    <id>http://samnang.me/2010/12-things-every-programmer-should-know/</id>
+    <published>2010-09-27T07:00:00+07:00</published>
+    <updated>2015-05-20T22:38:42+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Last weekend, I had a chance to give a presentation about 
+12 Things Every Programmer Should Know 
+at BarCamp Phnom Penh 2010 which is a biggest IT event
+in Cambodia. Cambodia is a developing country that still limited human resources, 
+but it is growing</summary>
+  </entry>
+</feed>

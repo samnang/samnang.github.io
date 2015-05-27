@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Samnang Chhun: Keep your vimrc concise and Vundle managing dependencies</title>
+<meta content="After I read some posts on Vim University, and especially a post on Don't be proud of an empty vimrc, then it helps me to think about revising my vimrc configuration." name='description'>
+<meta content='Vim, Vundle, Tools' name='keywords'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='True' name='HandheldFriendly'>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+<link href="/images/favicon.ico" rel="icon" type="image/ico" />
+<link href="/stylesheets/application.css" rel="stylesheet" type="text/css" />
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
+<meta name='twitter:card' value='summary'>
+<meta content='Samnang Chhun: Keep your vimrc concise and Vundle managing dependencies' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/' property='og:url'>
+<meta content='https://www.gravatar.com/avatar/863e24c91fcf1cd3c879ea62a401365e?size=128' property='og:image'>
+<meta content="After I read some posts on Vim University, and especially a post on Don't be proud of an empty vimrc, then it helps me to think about revising my vimrc configuration." property='og:description'>
+
+</head>
+<body class='post-template nav-closed'>
+<div class='nav'>
+<h3 class='nav-title'>Menu</h3>
+<a class='nav-close' href='#'>
+<span class='hidden'>Close</span>
+</a>
+<ul>
+<li class='nav-home' role='presentation'>
+<a href='/'>Home</a>
+</li>
+<li class='nav-archives' role='presentation'>
+<a href='/archives'>Archives</a>
+</li>
+<li class='nav-pair-with-me' role='presentation'>
+<a href='/pair-with-me'>Pair with Me</a>
+</li>
+<li class='nav-about' role='presentation'>
+<a href='/about'>About</a>
+</li>
+</ul>
+<a class='subscribe-button icon-feed' href='/feed.xml'>Subscribe</a>
+</div>
+<span class='nav-cover'></span>
+
+<div class='site-wrapper'>
+<header class='main-header no-cover post-head'>
+<nav class='main-nav clearfix'>
+<a class='blog-logo' href='/'>
+<img alt="Blog Logo" src="/images/profile-image.jpg" />
+</a>
+<a class='menu-button icon-menu' href='#'>
+<span class='word'>Menu</span>
+</a>
+</nav>
+</header>
+<main class='content' role='main'>
+<article class='post'>
+<header class='post-header'>
+<h1 class='post-title'>Keep your vimrc concise and Vundle managing dependencies</h1>
+<section class='post-meta'>
+<time class='post-date' datetime='2012-04-08'>
+08 April 2012
+</time>
+on <a href='/tag/vim/'>Vim</a>, <a href='/tag/vundle/'>Vundle</a>, <a href='/tag/tools/'>Tools</a>
+</section>
+</header>
+<section class='post-content'><p>I have been using vimming for a year now, and it became my primary text editor by then. Before that time, I only used it for editing configuration files on ssh server. It worths learning Vim because it is almost used in my day to day freelancing job work for pair programming, and we find out using Vim + Screen GNU/Tmux increase our productivity and reduce friction on development.</p>
+
+<p>After I read some posts on <a href="http://vimuniversity.com/">Vim University</a>, and especially a post on <a href="http://vimuniversity.com/posts/dont-be-proud-of-an-empty-vimrc">Don&rsquo;t be proud of an empty vimrc</a>, then it helps me to think about revising my vimrc configuration. I have switched to use <a href="https://github.com/gmarik/vundle">Vundle</a> for managing vim plugins because I don&rsquo;t have to use <a href="https://github.com/tpope/vim-pathogen/">pathogen.vim</a> with using git submodules or writing a Rake task to mange plugins. Vundle helps us to manage plugin as easy as you never though of:</p>
+
+<script src="https://gist.github.com/2338370.js?file=vimrc"></script>
+
+<noscript>
+    &ldquo; Let Vundle manage Vundle
+    Bundle &lsquo;gmarik/vundle&rsquo;
+    
+    Bundle 'tpope/vim-rails&rsquo;
+    Bundle 'tpope/vim-rake&rsquo;
+    Bundle 'tpope/vim-fugitive&rsquo;
+    Bundle 'tpope/vim-surround&rsquo;
+    Bundle 'tpope/vim-endwise&rsquo;
+    Bundle 'scrooloose/nerdtree&rsquo;
+    Bundle 'kien/ctrlp.vim&rsquo;
+    Bundle 'msanders/snipmate.vim&rsquo;
+    Bundle 'ervandew/supertab&rsquo;
+    Bundle 'mileszs/ack.vim&rsquo;
+    Bundle 'scrooloose/nerdcommenter&rsquo;
+    Bundle 'scrooloose/syntastic&rsquo;
+    Bundle 'Raimondi/delimitMate&rsquo;
+    Bundle 'mattn/zencoding-vim&rsquo;
+    Bundle 'vim-scripts/IndexedSearch&rsquo;
+    Bundle 'vim-scripts/L9.git&rsquo;
+    Bundle 'vim-scripts/matchit.zip&rsquo;
+    Bundle 'godlygeek/tabular&rsquo;
+    Bundle 'git://gist.github.com/287147.git&rsquo;
+    
+    Bundle 'tpope/vim-cucumber&rsquo;
+    Bundle 'tpope/vim-haml&rsquo;
+    Bundle 'pangloss/vim-javascript&rsquo;
+    Bundle 'kchmck/vim-coffee-script&rsquo;
+</noscript>
+
+<p>Of course, I also revised my <a href="https://github.com/samnang/dotfiles/blob/master/vimrc">vimrc</a> configuration, and I also kept only minimum configuration that I understand and use it for my day to day job. I deleted some settings that I stole and didn&rsquo;t understand them from vary sources. At the end of the day, I have managed my vimrc has only about 100 lines. How is about yours?</p>
+</section>
+<footer class='post-footer'>
+<figure class='author-image'>
+<a class='img' href='/about' style='background-image: url(https://www.gravatar.com/avatar/863e24c91fcf1cd3c879ea62a401365e?size=68)'>
+<span class='hidden'>Samnang Chhun's Picture</span>
+</a>
+</figure>
+<section class='author'>
+<h4>
+<a href='/about'>Samnang Chhun</a>
+</h4>
+<p></p>
+Software Craftsman
+<div class='author-meta'>
+<span class='author-location icon-location'>Phnom Penh, Cambodia</span>
+</div>
+</section>
+<section class='share'>
+<h4>Share this post</h4>
+<a class='icon-twitter' href='https://twitter.com/share?text=Keep your vimrc concise and Vundle managing dependencies&amp;amp;url=http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/' onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<span class='hidden'>Twitter</span>
+</a>
+<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<span class='hidden'>Facebook</span>
+</a>
+<a class='icon-google-plus' href='https://plus.google.com/share?url=http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/' onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<span class='hidden'>Google+</span>
+</a>
+</section>
+</footer>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'samnang';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</article>
+</main>
+
+<footer class='site-footer clearfix'>
+<section class='copyright'>
+<a href='/'>Samnang Chhun</a>
+&copy;
+2015
+</section>
+<section class='poweredby'>
+Casper theme powered by
+<a href='https://ghost.org'>Ghost</a>
+</section>
+</footer>
+</div>
+<script src="/javascripts/application.js" type="text/javascript"></script>
+</body>
+</html>

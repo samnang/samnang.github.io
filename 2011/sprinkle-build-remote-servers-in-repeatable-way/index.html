@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Samnang Chhun: Sprinkle: Build remote servers in repeatable way</title>
+<meta content="Sprinkle uses Ruby's DSL to define packages/steps that are going to execute on remote servers, so that makes it easy to read and write." name='description'>
+<meta content='Sprinkle, Automation, Tools' name='keywords'>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='True' name='HandheldFriendly'>
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+<link href="/images/favicon.ico" rel="icon" type="image/ico" />
+<link href="/stylesheets/application.css" rel="stylesheet" type="text/css" />
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
+<meta name='twitter:card' value='summary'>
+<meta content='Samnang Chhun: Sprinkle: Build remote servers in repeatable way' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='http://samnang.me/2011/sprinkle-build-remote-servers-in-repeatable-way/' property='og:url'>
+<meta content='https://www.gravatar.com/avatar/863e24c91fcf1cd3c879ea62a401365e?size=128' property='og:image'>
+<meta content="Sprinkle uses Ruby's DSL to define packages/steps that are going to execute on remote servers, so that makes it easy to read and write." property='og:description'>
+
+</head>
+<body class='post-template nav-closed'>
+<div class='nav'>
+<h3 class='nav-title'>Menu</h3>
+<a class='nav-close' href='#'>
+<span class='hidden'>Close</span>
+</a>
+<ul>
+<li class='nav-home' role='presentation'>
+<a href='/'>Home</a>
+</li>
+<li class='nav-archives' role='presentation'>
+<a href='/archives'>Archives</a>
+</li>
+<li class='nav-pair-with-me' role='presentation'>
+<a href='/pair-with-me'>Pair with Me</a>
+</li>
+<li class='nav-about' role='presentation'>
+<a href='/about'>About</a>
+</li>
+</ul>
+<a class='subscribe-button icon-feed' href='/feed.xml'>Subscribe</a>
+</div>
+<span class='nav-cover'></span>
+
+<div class='site-wrapper'>
+<header class='main-header no-cover post-head'>
+<nav class='main-nav clearfix'>
+<a class='blog-logo' href='/'>
+<img alt="Blog Logo" src="/images/profile-image.jpg" />
+</a>
+<a class='menu-button icon-menu' href='#'>
+<span class='word'>Menu</span>
+</a>
+</nav>
+</header>
+<main class='content' role='main'>
+<article class='post'>
+<header class='post-header'>
+<h1 class='post-title'>Sprinkle: Build remote servers in repeatable way</h1>
+<section class='post-meta'>
+<time class='post-date' datetime='2011-08-22'>
+22 August 2011
+</time>
+on <a href='/tag/sprinkle/'>Sprinkle</a>, <a href='/tag/automation/'>Automation</a>, <a href='/tag/tools/'>Tools</a>
+</section>
+</header>
+<section class='post-content'><p><a href="http://en.wikipedia.org/wiki/Cloud_computing">Cloud Computing</a> helps us be really easy to scale more servers or relaunch new servers when something went wrong. But setting up a new server to be the same as existing one is not easy because we have to remember all installed packages, custom configurations, and commands that you need to run them in order.</p>
+
+<blockquote>
+<p>&ldquo; <a href="https://github.com/crafterm/sprinkle/">Sprinkle</a> is a software provisioning tool you can use to build remote servers with, after the base operating system has been installed. For example, to install a Rails or Merb stack on a brand new slice directly after its been created. &rdquo;</p>
+</blockquote>
+
+<p>Sprinkle uses Ruby&rsquo;s DSL to define packages/steps that are going to execute on remote servers, so that makes it easy to read and write. Here is an example of package description follows:
+<script src="https://gist.github.com/1160876.js?file=ruby_enterprise.rb"></script>
+<noscript><br>
+    package :ruby<em>enterprise do
+      description &lsquo;Ruby Enterprise Edition&rsquo;
+      version &#39;1.8.7-2011.03&rsquo;
+      REE</em>PATH = &ldquo;/usr/local/ruby-enterprise&rdquo;
+      binaries = %w(erb gem irb rackup rails rake rdoc ree-version ri ruby testrb)
+      source &ldquo;http://rubyenterpriseedition.googlecode.com/files/ruby-enterprise-#{version}.tar.gz&rdquo; do
+        custom<em>install &#39;sudo ./installer &ndash;auto=/usr/local/ruby-enterprise&rsquo;
+        binaries.each {|bin| post :install, &ldquo;ln -s #{REE</em>PATH}/bin/#{bin} /usr/local/bin/#{bin}&rdquo; }
+      end</p>
+<pre class="highlight plaintext"><code>  verify do
+    has_directory REE_PATH
+    has_executable "#{REE_PATH}/bin/ruby"
+    binaries.each {|bin| has_symlink "/usr/local/bin/#{bin}", "#{REE_PATH}/bin/#{bin}" }
+  end
+
+  requires :ree_dependencies
+end
+
+package :ree_dependencies do
+  apt %w(zlib1g-dev libreadline5-dev libssl-dev)
+  requires :build_essential
+end
+</code></pre>
+
+<p></noscript></p>
+
+<p>There are few other tools as well like <a href="http://www.opscode.com/chef/">Chef</a> and <a href="http://www.puppetlabs.com/">Puppet</a>, and they are popular and really good. But after I spent a few hours to try Chef, then I feel it&rsquo;s not so friendly tool for getting started. So that&rsquo;s why I choose Sprinkle instead.</p>
+
+<h2>Resources</h2>
+
+<ul>
+<li><a href="https://github.com/crafterm/sprinkle">https://github.com/crafterm/sprinkle</a></li>
+<li><a href="http://www.vimeo.com/2888665">http://www.vimeo.com/2888665</a></li>
+<li><a href="https://github.com/uhlenbrock/passenger-stack">https://github.com/uhlenbrock/passenger-stack</a></li>
+<li><a href="https://github.com/asanghi/passenger-stack">https://github.com/asanghi/passenger-stack</a></li>
+<li><a href="https://github.com/thoughtbot/continuous_sprinkles">https://github.com/thoughtbot/continuous_sprinkles</a></li>
+</ul>
+</section>
+<footer class='post-footer'>
+<figure class='author-image'>
+<a class='img' href='/about' style='background-image: url(https://www.gravatar.com/avatar/863e24c91fcf1cd3c879ea62a401365e?size=68)'>
+<span class='hidden'>Samnang Chhun's Picture</span>
+</a>
+</figure>
+<section class='author'>
+<h4>
+<a href='/about'>Samnang Chhun</a>
+</h4>
+<p></p>
+Software Craftsman
+<div class='author-meta'>
+<span class='author-location icon-location'>Phnom Penh, Cambodia</span>
+</div>
+</section>
+<section class='share'>
+<h4>Share this post</h4>
+<a class='icon-twitter' href='https://twitter.com/share?text=Sprinkle: Build remote servers in repeatable way&amp;amp;url=http://samnang.me/2011/sprinkle-build-remote-servers-in-repeatable-way/' onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<span class='hidden'>Twitter</span>
+</a>
+<a class='icon-facebook' href='https://www.facebook.com/sharer/sharer.php?u=http://samnang.me/2011/sprinkle-build-remote-servers-in-repeatable-way/' onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<span class='hidden'>Facebook</span>
+</a>
+<a class='icon-google-plus' href='https://plus.google.com/share?url=http://samnang.me/2011/sprinkle-build-remote-servers-in-repeatable-way/' onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<span class='hidden'>Google+</span>
+</a>
+</section>
+</footer>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'samnang';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</article>
+</main>
+
+<footer class='site-footer clearfix'>
+<section class='copyright'>
+<a href='/'>Samnang Chhun</a>
+&copy;
+2015
+</section>
+<section class='poweredby'>
+Casper theme powered by
+<a href='https://ghost.org'>Ghost</a>
+</section>
+</footer>
+</div>
+<script src="/javascripts/application.js" type="text/javascript"></script>
+</body>
+</html>

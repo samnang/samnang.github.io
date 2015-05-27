@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: TDD</title>
+  <subtitle>Posts tagged with TDD</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/tdd/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>Performing Code Katas</title>
+    <link rel="alternate" href="http://samnang.me/2009/performing-code-katas/"/>
+    <id>http://samnang.me/2009/performing-code-katas/</id>
+    <published>2009-12-29T07:00:00+07:00</published>
+    <updated>2015-05-20T22:38:37+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Luckily, I had a chance to perform code kata on 
+Roy Osherove’s String Calculator at the first meeting 
+of Phnom Penh DeveloperCamp last weekend. It’s was a great session to share the ideas 
+behind practicing code kata exercises to build our skills and</summary>
+  </entry>
+</feed>

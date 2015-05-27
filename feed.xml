@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun</title>
+  <subtitle>Programming changes the world.</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>Convert nested JSON to object in Ruby</title>
+    <link rel="alternate" href="http://samnang.me/2015/convert-nested-json-to-object-in-ruby/"/>
+    <id>http://samnang.me/2015/convert-nested-json-to-object-in-ruby/</id>
+    <published>2015-05-27T02:15:00+07:00</published>
+    <updated>2015-05-27T02:24:31+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">In the past, every time I tried to convert a complex nested JSON to an object, 
+I used to depend on some third party gems like Hashie
+or recursive-open-struct.
+Recently I found a very simple way to solve my problem which depend on json which is included</summary>
+  </entry>
+  <entry>
+    <title>Thankful for My Community</title>
+    <link rel="alternate" href="http://samnang.me/2012/thankful-for-my-community/"/>
+    <id>http://samnang.me/2012/thankful-for-my-community/</id>
+    <published>2012-12-12T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:40+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">As I know there are some people are celebrating 12/12/12 is a special day for them, and they plan to do different things for their day. Then I think, why don’t I do a special thing as well for today :)
+
+I would like to say thank to awesome people who</summary>
+  </entry>
+  <entry>
+    <title>Krum - Find your interest groups in Cambodia</title>
+    <link rel="alternate" href="http://samnang.me/2012/krum---find-your-interest-groups-in-cambodia/"/>
+    <id>http://samnang.me/2012/krum---find-your-interest-groups-in-cambodia/</id>
+    <published>2012-09-27T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:37+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Beside my works on freelancing job, I would like to help to build better community in my local area(Cambodia). I know there is little communities here, and people don’t usually to go to meet each other to share their ideas, but it is changing now. There</summary>
+  </entry>
+  <entry>
+    <title>Interactive Ruby Learning</title>
+    <link rel="alternate" href="http://samnang.me/2012/interactive-ruby-learning/"/>
+    <id>http://samnang.me/2012/interactive-ruby-learning/</id>
+    <published>2012-08-05T07:00:00+07:00</published>
+    <updated>2015-05-27T12:13:20+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">According to the last month meetup at Pailin(Cambodia Ruby/RubyOnRails User Group), most of the members are just getting started in Ruby. So I had a chance to give a presentation about Interactive Ruby Learning at this weekend for our Auguest meetup.</summary>
+  </entry>
+  <entry>
+    <title>You should invest in Code Reading skills</title>
+    <link rel="alternate" href="http://samnang.me/2012/you-should-invest-in-code-reading-skills/"/>
+    <id>http://samnang.me/2012/you-should-invest-in-code-reading-skills/</id>
+    <published>2012-05-05T07:00:00+07:00</published>
+    <updated>2015-05-25T12:38:35+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">As you probably didn’t realize, you spent 2/3 of your time in doing programming tasks by reading your own codes or somebody else’s codes. So you ask why do we spend so much time in reading codes? Because before you do following tasks, you usually have</summary>
+  </entry>
+  <entry>
+    <title>Keep your vimrc concise and Vundle managing dependencies</title>
+    <link rel="alternate" href="http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/"/>
+    <id>http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/</id>
+    <published>2012-04-08T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:30+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">I have been using vimming for a year now, and it became my primary text editor by then. Before that time, I only used it for editing configuration files on ssh server. It worths learning Vim because it is almost used in my day to day freelancing job work</summary>
+  </entry>
+</feed>

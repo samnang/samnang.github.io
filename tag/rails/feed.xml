@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: Rails</title>
+  <subtitle>Posts tagged with Rails</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/rails/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>Send Email Notifications in Rails Development</title>
+    <link rel="alternate" href="http://samnang.me/2011/send-email-notifications-in-rails-development/"/>
+    <id>http://samnang.me/2011/send-email-notifications-in-rails-development/</id>
+    <published>2011-10-02T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:27+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">When there are features in your application that deal with sending email to users(eg. account activation, forget password). When you would like to test those features in your Rails development environment, then you probably go to running server’s log</summary>
+  </entry>
+  <entry>
+    <title>Unobtrusive AJAX with Rails 3.1</title>
+    <link rel="alternate" href="http://samnang.me/2011/unobtrusive-ajax-with-rails-31/"/>
+    <id>http://samnang.me/2011/unobtrusive-ajax-with-rails-31/</id>
+    <published>2011-09-19T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:22+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Since Rails 3.0 release, Unobtrusive Javascript has introduced in building Rails application. It’s a technique for separating the behavior of a web application from its content. It helps us to implement a web application that works for clients with and</summary>
+  </entry>
+  <entry>
+    <title>Use View Helper Methods in Rails 3 Controller</title>
+    <link rel="alternate" href="http://samnang.me/2011/use-view-helper-methods-in-rails-3-controller/"/>
+    <id>http://samnang.me/2011/use-view-helper-methods-in-rails-3-controller/</id>
+    <published>2011-09-09T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:20+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Sometimes people use helper_method to turn their controller methods to be able to use in their views. Rails provides a lot of view helpers, and sometimes we would like to use some helper methods that have in helper modules in our controllers instead,</summary>
+  </entry>
+</feed>

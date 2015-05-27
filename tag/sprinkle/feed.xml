@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: Sprinkle</title>
+  <subtitle>Posts tagged with Sprinkle</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/sprinkle/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>Sprinkle: Build remote servers in repeatable way</title>
+    <link rel="alternate" href="http://samnang.me/2011/sprinkle-build-remote-servers-in-repeatable-way/"/>
+    <id>http://samnang.me/2011/sprinkle-build-remote-servers-in-repeatable-way/</id>
+    <published>2011-08-22T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:17+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Cloud Computing helps us be really easy to scale more servers or relaunch new servers when something went wrong. But setting up a new server to be the same as existing one is not easy because we have to remember all installed packages, custom configurations</summary>
+  </entry>
+</feed>

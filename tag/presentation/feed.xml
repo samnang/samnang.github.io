@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: Presentation</title>
+  <subtitle>Posts tagged with Presentation</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/presentation/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>12 Things every Programmer should know</title>
+    <link rel="alternate" href="http://samnang.me/2010/12-things-every-programmer-should-know/"/>
+    <id>http://samnang.me/2010/12-things-every-programmer-should-know/</id>
+    <published>2010-09-27T07:00:00+07:00</published>
+    <updated>2015-05-20T22:38:42+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Last weekend, I had a chance to give a presentation about 
+12 Things Every Programmer Should Know 
+at BarCamp Phnom Penh 2010 which is a biggest IT event
+in Cambodia. Cambodia is a developing country that still limited human resources, 
+but it is growing</summary>
+  </entry>
+  <entry>
+    <title>Performing Code Katas</title>
+    <link rel="alternate" href="http://samnang.me/2009/performing-code-katas/"/>
+    <id>http://samnang.me/2009/performing-code-katas/</id>
+    <published>2009-12-29T07:00:00+07:00</published>
+    <updated>2015-05-20T22:38:37+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Luckily, I had a chance to perform code kata on 
+Roy Osherove’s String Calculator at the first meeting 
+of Phnom Penh DeveloperCamp last weekend. It’s was a great session to share the ideas 
+behind practicing code kata exercises to build our skills and</summary>
+  </entry>
+</feed>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: IRB</title>
+  <subtitle>Posts tagged with IRB</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/irb/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>Use any Your Favorite Text Editors within irb</title>
+    <link rel="alternate" href="http://samnang.me/2010/use-any-your-favorite-text-editors-within-irb/"/>
+    <id>http://samnang.me/2010/use-any-your-favorite-text-editors-within-irb/</id>
+    <published>2010-10-05T07:00:00+07:00</published>
+    <updated>2015-05-20T22:38:17+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Almost Ruby and Rails developers use Interactive Ruby Shell(irb) everyday to test 
+their code snippets. We all understand how useful and important to us on this tool. 
+But sometime I find a little bit difficult when I want to test a chunk of codes in</summary>
+  </entry>
+</feed>

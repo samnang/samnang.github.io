@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: Metaprogramming</title>
+  <subtitle>Posts tagged with Metaprogramming</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/metaprogramming/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>Review: Zero to Ruby course</title>
+    <link rel="alternate" href="http://samnang.me/2011/review-zero-to-ruby-course/"/>
+    <id>http://samnang.me/2011/review-zero-to-ruby-course/</id>
+    <published>2011-06-19T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:15+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Yesterday, I had a wonderful time in my free Ruby course(Zero to Ruby). There were about 20 participants, and some are having some experiences in Ruby, but some are not. The course started 9:00 to 16:30, so it took about 8 hrs 30 mins.
+
+The course started</summary>
+  </entry>
+  <entry>
+    <title>Zero to Ruby (free course)</title>
+    <link rel="alternate" href="http://samnang.me/2011/zero-to-ruby-free-course/"/>
+    <id>http://samnang.me/2011/zero-to-ruby-free-course/</id>
+    <published>2011-06-12T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:12+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Being a part of Ruby communities, it would be nice to do something interesting, useful, sharing to the communities. So that I decide to run Zero to Ruby(a full day free Ruby course) to help to build and grow local Ruby communities in Cambodia. There are</summary>
+  </entry>
+  <entry>
+    <title>Different ways to define singleton methods in Ruby</title>
+    <link rel="alternate" href="http://samnang.me/2011/different-ways-to-define-singleton-methods-in-ruby/"/>
+    <id>http://samnang.me/2011/different-ways-to-define-singleton-methods-in-ruby/</id>
+    <published>2011-01-15T07:00:00+07:00</published>
+    <updated>2015-05-20T22:42:20+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">As we know from The Philosophy of Ruby, Ruby inherited the Perl philosophy of having more than one way to do the same thing. So that, there are many ways to define singleton methods in Ruby.
+##############################################
+# Different ways</summary>
+  </entry>
+</feed>

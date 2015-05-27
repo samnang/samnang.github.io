@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: MockSMTP</title>
+  <subtitle>Posts tagged with MockSMTP</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/mocksmtp/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>Send Email Notifications in Rails Development</title>
+    <link rel="alternate" href="http://samnang.me/2011/send-email-notifications-in-rails-development/"/>
+    <id>http://samnang.me/2011/send-email-notifications-in-rails-development/</id>
+    <published>2011-10-02T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:27+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">When there are features in your application that deal with sending email to users(eg. account activation, forget password). When you would like to test those features in your Rails development environment, then you probably go to running server’s log</summary>
+  </entry>
+</feed>

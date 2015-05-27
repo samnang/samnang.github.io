@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: Vundle</title>
+  <subtitle>Posts tagged with Vundle</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/vundle/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>Keep your vimrc concise and Vundle managing dependencies</title>
+    <link rel="alternate" href="http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/"/>
+    <id>http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/</id>
+    <published>2012-04-08T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:30+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">I have been using vimming for a year now, and it became my primary text editor by then. Before that time, I only used it for editing configuration files on ssh server. It worths learning Vim because it is almost used in my day to day freelancing job work</summary>
+  </entry>
+</feed>

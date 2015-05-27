@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: DevCamp</title>
+  <subtitle>Posts tagged with DevCamp</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/devcamp/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>Why I love Ruby better than X</title>
+    <link rel="alternate" href="http://samnang.me/2010/why-i-love-ruby-better-than-x/"/>
+    <id>http://samnang.me/2010/why-i-love-ruby-better-than-x/</id>
+    <published>2010-12-29T07:00:00+07:00</published>
+    <updated>2015-05-20T22:39:41+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">I have uploaded my slide of my Ruby talk, Why I love Ruby better than X. I really enjoyed talking about this topic because Ruby is my first and favorite programming 
+language. I show some reasons about why I love Ruby with its natural language. Unfortunately</summary>
+  </entry>
+  <entry>
+    <title>Performing Code Katas</title>
+    <link rel="alternate" href="http://samnang.me/2009/performing-code-katas/"/>
+    <id>http://samnang.me/2009/performing-code-katas/</id>
+    <published>2009-12-29T07:00:00+07:00</published>
+    <updated>2015-05-20T22:38:37+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Luckily, I had a chance to perform code kata on 
+Roy Osherove’s String Calculator at the first meeting 
+of Phnom Penh DeveloperCamp last weekend. It’s was a great session to share the ideas 
+behind practicing code kata exercises to build our skills and</summary>
+  </entry>
+</feed>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: AJAX</title>
+  <subtitle>Posts tagged with AJAX</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/ajax/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>Unobtrusive AJAX with Rails 3.1</title>
+    <link rel="alternate" href="http://samnang.me/2011/unobtrusive-ajax-with-rails-31/"/>
+    <id>http://samnang.me/2011/unobtrusive-ajax-with-rails-31/</id>
+    <published>2011-09-19T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:22+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Since Rails 3.0 release, Unobtrusive Javascript has introduced in building Rails application. It’s a technique for separating the behavior of a web application from its content. It helps us to implement a web application that works for clients with and</summary>
+  </entry>
+</feed>

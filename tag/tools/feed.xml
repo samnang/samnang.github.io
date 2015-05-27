@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: Tools</title>
+  <subtitle>Posts tagged with Tools</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/tools/feed.xml" rel="self"/>
+  <updated>2015-05-27T02:15:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>Keep your vimrc concise and Vundle managing dependencies</title>
+    <link rel="alternate" href="http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/"/>
+    <id>http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/</id>
+    <published>2012-04-08T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:30+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">I have been using vimming for a year now, and it became my primary text editor by then. Before that time, I only used it for editing configuration files on ssh server. It worths learning Vim because it is almost used in my day to day freelancing job work</summary>
+  </entry>
+  <entry>
+    <title>Sprinkle: Build remote servers in repeatable way</title>
+    <link rel="alternate" href="http://samnang.me/2011/sprinkle-build-remote-servers-in-repeatable-way/"/>
+    <id>http://samnang.me/2011/sprinkle-build-remote-servers-in-repeatable-way/</id>
+    <published>2011-08-22T07:00:00+07:00</published>
+    <updated>2015-05-18T17:42:17+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Cloud Computing helps us be really easy to scale more servers or relaunch new servers when something went wrong. But setting up a new server to be the same as existing one is not easy because we have to remember all installed packages, custom configurations</summary>
+  </entry>
+</feed>
