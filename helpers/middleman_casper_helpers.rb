@@ -23,6 +23,14 @@ module MiddlemanCasperHelpers
     end
   end
 
+  def page_keywords
+    if is_blog_article?
+      current_page.data.tags
+    else
+      blog_settings.keywords
+    end
+  end
+
   def page_class
     if is_blog_article? || current_page.data.layout == 'page'
       'post-template'

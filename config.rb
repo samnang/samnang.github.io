@@ -34,6 +34,7 @@ set :casper, {
     url: 'http://samnang.me',
     name: 'Samnang Chhun',
     description: 'Programming changes the world.',
+    keywords: 'Samnang Chhun, Software craftsman, Craftsmanship, Ruby, Rails, Ruby on Rails, Rubyist, Agile Software Development, TDD, BDD, RSpec, Unit Testing, Pair programming, ShareVision',
     date_format: '%d %B %Y',
     navigation: true,
     logo: 'profile-image.jpg' # Optional
