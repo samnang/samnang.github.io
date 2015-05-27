@@ -15,7 +15,9 @@ module MiddlemanCasperHelpers
   end
 
   def page_description
-    if is_blog_article?
+    if current_page.data.description
+      current_page.data.description
+    elsif is_blog_article?
       body = strip_tags(current_article.body).gsub(/\s+/, ' ')
       truncate(body, length: 147)
     else
@@ -78,8 +80,8 @@ module MiddlemanCasperHelpers
     end.gsub("\n", '')
   end
 
-  def current_article_url
-    URI.join(blog_settings.url, current_article.url)
+  def current_page_url
+    URI.join(blog_settings.url, current_page.url)
   end
 
   def cover(page = current_page)
@@ -103,13 +105,13 @@ module MiddlemanCasperHelpers
 
   def twitter_url
     "https://twitter.com/share?text=#{current_article.title}" \
-      "&amp;url=#{current_article_url}"
+      "&amp;url=#{current_page_url}"
   end
   def facebook_url
-    "https://www.facebook.com/sharer/sharer.php?u=#{current_article_url}"
+    "https://www.facebook.com/sharer/sharer.php?u=#{current_page_url}"
   end
   def google_plus_url
-    "https://plus.google.com/share?url=#{current_article_url}"
+    "https://plus.google.com/share?url=#{current_page_url}"
   end
 
   def feed_path
@@ -130,5 +132,9 @@ module MiddlemanCasperHelpers
     link_to target, target: '_blank' do
       %{<i class="fa fa-#{name} fa-3x"></i>}
     end
+  end
+
+  def home_page?
+    current_page.url == '/'
   end
 end

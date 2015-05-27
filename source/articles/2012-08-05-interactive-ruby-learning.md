@@ -1,6 +1,7 @@
 ---
 title: Interactive Ruby Learning
 date: 2012/08/05
+tags: Ruby
 layout: post
 ---
 
