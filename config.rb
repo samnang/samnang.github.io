@@ -37,6 +37,7 @@ set :casper, {
     keywords: 'Samnang Chhun, Software craftsman, Craftsmanship, Ruby, Rails, Ruby on Rails, Rubyist, Agile Software Development, TDD, BDD, RSpec, Unit Testing, Pair programming, ShareVision',
     date_format: '%d %B %Y',
     navigation: true,
+    analytics_tracking_code: 'UA-10806853-5',
     logo: 'profile-image.jpg' # Optional
   },
   author: {
