@@ -5,11 +5,10 @@ per_page: 6
 
 %header.main-header.tag-head{cover}
   %nav.main-nav.overlay.clearfix
-    - if blog_settings.logo.present?
-      %a.blog-logo{href: home_path}
-        = image_tag blog_settings.logo, alt: 'Blog Logo'
+    %a.nav-button.back-button.icon-arrow-left{href: home_path}
+      %span.word Back
     - if blog_settings.navigation
-      %a.menu-button.icon-menu{href: '#'}
+      %a.nav-button.menu-button.icon-menu{href: '#'}
         %span.word Menu
   .vertical
     .main-header-content.inner

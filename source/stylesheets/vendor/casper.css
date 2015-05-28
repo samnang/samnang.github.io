@@ -781,54 +781,62 @@ body.nav-opened .nav {
     width: auto;
 }
 
-.menu-button {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
-    float: right;
-    height: 38px;
-    padding: 0 15px;
-    border-style: solid;
-    border-width: 1px;
-    opacity: 1;
-    text-align: center;
-    font-size: 12px;
-    text-transform: uppercase;
-    line-height: 35px;
-    white-space: nowrap;
-    border-radius: 3px;
-    transition: all 0.5s ease;
+.nav-button {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 38px;
+  padding: 0 15px;
+  border-style: solid;
+  border-width: 1px;
+  opacity: 1;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 35px;
+  white-space: nowrap;
+  border-radius: 3px;
+  transition: all 0.5s ease;
 }
-.menu-button:before {
+
+.back-button {
+  float: left;
+}
+
+.menu-button {
+  float: right;
+}
+
+.nav-button:before {
     font-size: 12px;
     font-weight: bold;
     margin-right: 6px;
     position: relative;
     top: 1px;
 }
-.menu-button:hover {
+.nav-button:hover {
     background: #fff;
 }
-.menu-button:focus {
+.nav-button:focus {
     outline: 0;
 }
 
 /* When the navigation is closed */
-.nav-closed .menu-button {
+.nav-closed .nav-button {
     color: #fff;
     border-color: rgba(255, 255, 255, 0.6);
 }
-.nav-closed .menu-button:hover {
+.nav-closed .nav-button:hover {
     color: #222;
 }
 
 /* When the navigation is closed and there is no cover image */
-.nav-closed .no-cover .menu-button {
+.nav-closed .no-cover .nav-button {
     border-color: #BFC8CD;
     color: #9EABB3;
 }
-.nav-closed .no-cover .menu-button:hover {
+.nav-closed .no-cover .nav-button:hover {
     border-color: #555;
     color: #555;
 }

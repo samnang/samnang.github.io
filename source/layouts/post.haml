@@ -1,11 +1,10 @@
 = wrap_layout :layout do
   %header.main-header.post-head{cover}
     %nav.main-nav.clearfix{class: cover? ? 'overlay' : nil}
-      - if blog_settings.logo.present?
-        %a.blog-logo{href: home_path}
-          = image_tag blog_settings.logo, alt: 'Blog Logo'
+      %a.nav-button.back-button.icon-arrow-left{href: home_path}
+        %span.word Back
       - if blog_settings.navigation
-        %a.menu-button.icon-menu{href: '#'}
+        %a.nav-button.menu-button.icon-menu{href: '#'}
           %span.word Menu
 
   %main.content{role: :main}
