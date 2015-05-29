@@ -1,422 +1,422 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://samnang.me/about/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/about/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/archives/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/archives/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2009/dotnet-coders-should-give-ruby-a-try/index.html</loc>
+    <loc>http://samnang.me/2009/dotnet-coders-should-give-ruby-a-try/</loc>
     <lastmod>2015-05-20T22:38:32+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2009/performing-code-katas/index.html</loc>
+    <loc>http://samnang.me/2009/performing-code-katas/</loc>
     <lastmod>2015-05-20T22:38:37+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2010/12-things-every-programmer-should-know/index.html</loc>
+    <loc>http://samnang.me/2010/12-things-every-programmer-should-know/</loc>
     <lastmod>2015-05-20T22:38:42+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2010/use-any-your-favorite-text-editors-within-irb/index.html</loc>
+    <loc>http://samnang.me/2010/use-any-your-favorite-text-editors-within-irb/</loc>
     <lastmod>2015-05-20T22:38:17+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2010/why-i-love-ruby-better-than-x/index.html</loc>
+    <loc>http://samnang.me/2010/why-i-love-ruby-better-than-x/</loc>
     <lastmod>2015-05-20T22:39:41+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2011/2011-will-be-my-ruby-and-oss-year/index.html</loc>
+    <loc>http://samnang.me/2011/2011-will-be-my-ruby-and-oss-year/</loc>
     <lastmod>2015-05-20T22:40:01+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2011/different-ways-to-define-singleton-methods-in-ruby/index.html</loc>
+    <loc>http://samnang.me/2011/different-ways-to-define-singleton-methods-in-ruby/</loc>
     <lastmod>2015-05-20T22:42:20+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2011/zero-to-ruby-at-opentechtalk/index.html</loc>
+    <loc>http://samnang.me/2011/zero-to-ruby-at-opentechtalk/</loc>
     <lastmod>2015-05-20T23:00:29+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2011/run-only-focus-examples-in-rspec-like-cucumber/index.html</loc>
+    <loc>http://samnang.me/2011/run-only-focus-examples-in-rspec-like-cucumber/</loc>
     <lastmod>2015-05-24T23:43:27+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2011/zero-to-ruby-free-course/index.html</loc>
+    <loc>http://samnang.me/2011/zero-to-ruby-free-course/</loc>
     <lastmod>2015-05-18T17:42:12+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2011/review-zero-to-ruby-course/index.html</loc>
+    <loc>http://samnang.me/2011/review-zero-to-ruby-course/</loc>
     <lastmod>2015-05-18T17:42:15+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2011/sprinkle-build-remote-servers-in-repeatable-way/index.html</loc>
+    <loc>http://samnang.me/2011/sprinkle-build-remote-servers-in-repeatable-way/</loc>
     <lastmod>2015-05-18T17:42:17+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2011/use-view-helper-methods-in-rails-3-controller/index.html</loc>
+    <loc>http://samnang.me/2011/use-view-helper-methods-in-rails-3-controller/</loc>
     <lastmod>2015-05-18T17:42:20+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2011/unobtrusive-ajax-with-rails-31/index.html</loc>
+    <loc>http://samnang.me/2011/unobtrusive-ajax-with-rails-31/</loc>
     <lastmod>2015-05-18T17:42:22+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2011/my-last-day-at-yoolk/index.html</loc>
+    <loc>http://samnang.me/2011/my-last-day-at-yoolk/</loc>
     <lastmod>2015-05-18T17:42:25+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2011/send-email-notifications-in-rails-development/index.html</loc>
+    <loc>http://samnang.me/2011/send-email-notifications-in-rails-development/</loc>
     <lastmod>2015-05-18T17:42:27+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/index.html</loc>
+    <loc>http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/</loc>
     <lastmod>2015-05-18T17:42:30+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2012/you-should-invest-in-code-reading-skills/index.html</loc>
+    <loc>http://samnang.me/2012/you-should-invest-in-code-reading-skills/</loc>
     <lastmod>2015-05-25T12:38:35+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2012/interactive-ruby-learning/index.html</loc>
+    <loc>http://samnang.me/2012/interactive-ruby-learning/</loc>
     <lastmod>2015-05-27T12:13:20+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2012/krum---find-your-interest-groups-in-cambodia/index.html</loc>
+    <loc>http://samnang.me/2012/krum---find-your-interest-groups-in-cambodia/</loc>
     <lastmod>2015-05-18T17:42:37+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2012/thankful-for-my-community/index.html</loc>
+    <loc>http://samnang.me/2012/thankful-for-my-community/</loc>
     <lastmod>2015-05-18T17:42:40+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/2015/convert-nested-json-to-object-in-ruby/index.html</loc>
+    <loc>http://samnang.me/2015/convert-nested-json-to-object-in-ruby/</loc>
     <lastmod>2015-05-27T12:49:32+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/pair-with-me/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/pair-with-me/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/author/samnang-chhun/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/author/samnang-chhun/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/net/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/net/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/ruby/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/ruby/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/tdd/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/tdd/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/codekata/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/codekata/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/devcamp/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/devcamp/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/presentation/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/presentation/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/career/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/career/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/skills/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/skills/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/irb/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/irb/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/goals/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/goals/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/metaprogramming/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/metaprogramming/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/opentechtalk/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/opentechtalk/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/rspec/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/rspec/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/cucumber/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/cucumber/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/testing/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/testing/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/course/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/course/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/communities/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/communities/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/sharevision/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/sharevision/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/review/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/review/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/sprinkle/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/sprinkle/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/automation/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/automation/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/tools/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/tools/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/rails/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/rails/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/ajax/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/ajax/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/yoolk/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/yoolk/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/mailcatcher/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/mailcatcher/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/letter-opener/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/letter-opener/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/letter_opener/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/letter_opener/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/mocksmtp/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/mocksmtp/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/vim/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/vim/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/vundle/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/vundle/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/programming/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/programming/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/open-source/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/open-source/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/oss/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/oss/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/krum/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/krum/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/community/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/community/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/page/2/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/page/2/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/page/3/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/page/3/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/page/4/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/page/4/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/author/samnang-chhun/page/2/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/author/samnang-chhun/page/2/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/author/samnang-chhun/page/3/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/author/samnang-chhun/page/3/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/author/samnang-chhun/page/4/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/author/samnang-chhun/page/4/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://samnang.me/tag/ruby/page/2/index.html</loc>
-    <lastmod>2015-05-28T09:06:04+07:00</lastmod>
+    <loc>http://samnang.me/tag/ruby/page/2/</loc>
+    <lastmod>2015-05-29T12:24:36+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
