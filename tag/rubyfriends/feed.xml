@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Samnang Chhun: RubyFriends</title>
+  <subtitle>Posts tagged with RubyFriends</subtitle>
+  <id>http://samnang.me</id>
+  <link href="http://samnang.me"/>
+  <link href="http://samnang.me/tag/rubyfriends/feed.xml" rel="self"/>
+  <updated>2015-06-01T23:54:00+07:00</updated>
+  <author>
+    <name>Samnang Chhun</name>
+  </author>
+  <entry>
+    <title>Pair with Dan Mayer</title>
+    <link rel="alternate" href="http://samnang.me/2015/pair-with-dan-mayer/"/>
+    <id>http://samnang.me/2015/pair-with-dan-mayer/</id>
+    <published>2015-06-01T23:54:00+07:00</published>
+    <updated>2015-06-02T22:04:21+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Dan Mayer(@danmayer) and I met each other on the internet when he had planned to 
+visit Cambodia.  He pinged me on twitter, then we setup a plan to meet when he
+was going to be here.  We had a great lunch together as we had planned and talked
+about many</summary>
+  </entry>
+</feed>

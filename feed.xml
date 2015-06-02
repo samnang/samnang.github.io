@@ -5,10 +5,24 @@
   <id>http://samnang.me</id>
   <link href="http://samnang.me"/>
   <link href="http://samnang.me/feed.xml" rel="self"/>
-  <updated>2015-05-27T02:15:00+07:00</updated>
+  <updated>2015-06-01T23:54:00+07:00</updated>
   <author>
     <name>Samnang Chhun</name>
   </author>
+  <entry>
+    <title>Pair with Dan Mayer</title>
+    <link rel="alternate" href="http://samnang.me/2015/pair-with-dan-mayer/"/>
+    <id>http://samnang.me/2015/pair-with-dan-mayer/</id>
+    <published>2015-06-01T23:54:00+07:00</published>
+    <updated>2015-06-02T22:04:21+07:00</updated>
+    <author>
+      <name>Samnang Chhun</name>
+    </author>
+    <summary type="html">Dan Mayer(@danmayer) and I met each other on the internet when he had planned to 
+visit Cambodia.  He pinged me on twitter, then we setup a plan to meet when he
+was going to be here.  We had a great lunch together as we had planned and talked
+about many</summary>
+  </entry>
   <entry>
     <title>Convert nested JSON to object in Ruby</title>
     <link rel="alternate" href="http://samnang.me/2015/convert-nested-json-to-object-in-ruby/"/>
@@ -68,16 +82,5 @@ I would like to say thank to awesome people who</summary>
       <name>Samnang Chhun</name>
     </author>
     <summary type="html">As you probably didn’t realize, you spent 2/3 of your time in doing programming tasks by reading your own codes or somebody else’s codes. So you ask why do we spend so much time in reading codes? Because before you do following tasks, you usually have</summary>
-  </entry>
-  <entry>
-    <title>Keep your vimrc concise and Vundle managing dependencies</title>
-    <link rel="alternate" href="http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/"/>
-    <id>http://samnang.me/2012/keep-your-vimrc-concise-and-vundle-managing-dependencies/</id>
-    <published>2012-04-08T07:00:00+07:00</published>
-    <updated>2015-05-18T17:42:30+07:00</updated>
-    <author>
-      <name>Samnang Chhun</name>
-    </author>
-    <summary type="html">I have been using vimming for a year now, and it became my primary text editor by then. Before that time, I only used it for editing configuration files on ssh server. It worths learning Vim because it is almost used in my day to day freelancing job work</summary>
   </entry>
 </feed>
